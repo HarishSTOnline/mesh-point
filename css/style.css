@@ -1,0 +1,167 @@
+/*---General Stylings ---*/
+body, html {
+	/*font-family: 'Merriweather', serif;*/
+	font-family: 'Exo 2', sans-serif;
+	background: #edf5e1 !important;
+}
+
+/*--- Header Stylings ---*/
+.navbar {
+	/*background: linear-gradient(120deg, #00e4d0, #5983e8);*/
+	background: #314152 !important;
+
+}
+
+.fixed-top-mod {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/*--- Section Content Stylings ---*/
+section.content {
+	background: linear-gradient(to right,#eef9fe,#edf7ff);
+	padding: 1em 1em 2em 1em;
+	/*background-color: #698bac;*/
+}
+
+.description {
+	text-align: justify;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+}
+
+.company-title {
+	padding: 10px;
+	font-weight: bolder;
+}
+
+
+.content h2 {
+	text-align: center;
+    color: #dc3545;
+    font-weight: bolder;
+    font-family: 'Merriweather', serif;
+
+}
+
+.content-img img {
+	box-shadow: 8px 8px 8px 2px #343a407d;
+}
+
+.content-inside {
+	padding: 10px;
+}
+
+
+
+/*--- Footer Stylings ---*/
+footer {
+	/*min-height: 250px;*/
+	background: #314152 !important;
+	/*background: linear-gradient(120deg, #1d2124, #454b4f);*/
+	color: white;
+	/*color: #528ff0;*/
+	text-align: center;
+	vertical-align: center;
+	padding: 1em 0px 1em 0px;
+}
+
+footer .footer-column {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+ul.address, ul.social-media {
+    list-style: none;
+    padding-left: 0px;
+}
+ul.social-media li img {
+    width: 50px;
+    height: 50px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+ul.social-media {
+    display: inline-flex;
+}
+
+/*--- CopyRight ---*/
+section.copyright {
+    text-align: center;
+    color: #fff;
+    /*background: #379683 !important;*/
+    background: #2c3531 !important;
+}
+
+section.copyright p {
+    font-size: 16px;
+    font-stretch: expanded;
+    margin: 0px;
+    padding: 0.5em 0px 0.5em 0px;
+}
+
+/*--- Carousel Stylings ---*/
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item:after {
+	background:rgba(0,0,0,0.6);
+}
+
+.carousel-heading {
+	/* font-size: 3.5rem; */
+    /* font-weight: 300; */
+    /* line-height: 1.2; */
+}
+
+/*---- Product Stylings ----*/
+.products {
+	background-color: #ada1a1;
+}
+
+.products h2 {
+	text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.products .card {
+	margin: 20px 0px 2em 0px;
+}
+
+img.card-img-top {
+    height: 250px;
+}
+
+.card {
+    text-align: center;
+    box-shadow: 9px 9px 6px 1px #555555;
+}
+
+
+/* ----- Gallery Thumbnail Styles -------- */
+.thumbnail {
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.75;
+    cursor: pointer;
+    box-shadow: 8px 10px 5px 0px #5d5757;
+    border-radius: 10px;
+}
+.thumbnail:hover {
+    opacity: 1;
+}
