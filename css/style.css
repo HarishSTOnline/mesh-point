@@ -162,6 +162,11 @@ img.card-img-top {
     box-shadow: 8px 10px 5px 0px #5d5757;
     border-radius: 10px;
 }
+
 .thumbnail:hover {
     opacity: 1;
+}
+
+section.bg-white {
+    background: white !important;
 }
